@@ -49,7 +49,7 @@ const HomeView = () => {
   ];
 
   return (
-    <main className="min-h-screen flex flex-col items-center bg-background px-6 text-foreground">
+    <main className="min-h-screen flex flex-col items-center bg-background px-6 text-foreground py-8">
       {/* Hero Section */}
       <section className="max-w-6xl w-full grid md:grid-cols-2 gap-12 items-center py-16">
         {/* Left Text Section */}
@@ -86,7 +86,7 @@ const HomeView = () => {
         </div>
 
         {/* Right Image Section */}
-        <div className="relative w-full rounded-xl overflow-hidden shadow-2xl border border-gray-200">
+        <div className="relative w-full rounded-xl overflow-hidden shadow-lg border border-gray-200">
           <Image
             src="/example.png"
             alt="Example resume preview"
